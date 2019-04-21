@@ -70,10 +70,8 @@
 """
 
 
-
 # data split
 from sklearn.model_selection import train_test_split
-
 # CV split
 from sklearn.model_selection import KFold
 from sklearn.model_selection import RepeatedKFold
@@ -88,13 +86,11 @@ from sklearn.model_selection import GroupKFold
 from sklearn.model_selection import LeaveOneGroupOut
 from sklearn.model_selection import LeavePGroupsOut
 from sklearn.model_selection import GroupShuffleSplit
-
 # CV method
 from sklearn.model_selection import cross_val_score
 from sklearn.model_selection import cross_validate
 from sklearn.model_selection import GridSearchCV
 from sklearn.model_selection import RandomizedSearchCV
-
 # Model CV
 from sklearn.linear_model import RidgeCV
 from sklearn.linear_model import RidgeClassifierCV
@@ -107,7 +103,6 @@ from sklearn.linear_model import MultiTaskElasticNetCV
 from sklearn.linear_model import LogisticRegressionCV
 from sklearn.linear_model import OrthogonalMatchingPursuitCV
 from sklearn.linear_model import LassoLarsIC
-
 # OOB
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.ensemble import RandomForestRegressor
