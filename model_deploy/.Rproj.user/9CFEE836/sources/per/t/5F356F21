@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1545831302392.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4157158444",
+    "id" : "5F356F21",
+    "lastKnownWriteTime" : 1545837021,
+    "last_content_update" : 1545837021526,
+    "path" : "E:/machinelearning/model_deploy/linearmodel/LR_model.R",
+    "project_path" : "linearmodel/LR_model.R",
+    "properties" : {
+        "cursorPosition" : "3,23",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
