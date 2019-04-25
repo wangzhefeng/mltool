@@ -8,11 +8,17 @@
 
 import numpy as np
 import pandas as pd
-# from sklearn.preprocessing import OrdinalEncoder
+from sklearn.preprocessing import OrdinalEncoder
 from sklearn.preprocessing import OneHotEncoder
 
 
 def oneHotEncoding(data, limit_value = 10):
+	"""
+	One-Hot Encoding: pandas get_dummies
+	:param data:
+	:param limit_value:
+	:return:
+	"""
 	feature_cnt = data.shape[1]
 	class_index = []
 	class_df = pd.DataFrame()
@@ -27,15 +33,25 @@ def oneHotEncoding(data, limit_value = 10):
 	return data_update
 
 
-def order_encoder():
-	pass
+def order_encoder(cate_feats):
+	enc = OrdinalEncoder()
+	encoded_feats = enc.fit_transform(cate_feats)
+
+	return encoded_feats
 
 
 def one_hot_encoder(cate_feats):
+	"""
+	One-Hot Encoding: sklearn.preprocessing.OneHotEncoder
+	:param cate_feats:
+	:return:
+	"""
 	enc = OneHotEncoder()
 	encoded_feats = enc.fit_transform(cate_feats)
 
 	return encoded_feats
+
+
 
 
 def main():

@@ -70,10 +70,8 @@
 """
 
 
-
 # data split
 from sklearn.model_selection import train_test_split
-
 # CV split
 from sklearn.model_selection import KFold
 from sklearn.model_selection import RepeatedKFold
@@ -88,13 +86,11 @@ from sklearn.model_selection import GroupKFold
 from sklearn.model_selection import LeaveOneGroupOut
 from sklearn.model_selection import LeavePGroupsOut
 from sklearn.model_selection import GroupShuffleSplit
-
 # CV method
 from sklearn.model_selection import cross_val_score
 from sklearn.model_selection import cross_validate
 from sklearn.model_selection import GridSearchCV
 from sklearn.model_selection import RandomizedSearchCV
-
 # Model CV
 from sklearn.linear_model import RidgeCV
 from sklearn.linear_model import RidgeClassifierCV
@@ -107,7 +103,6 @@ from sklearn.linear_model import MultiTaskElasticNetCV
 from sklearn.linear_model import LogisticRegressionCV
 from sklearn.linear_model import OrthogonalMatchingPursuitCV
 from sklearn.linear_model import LassoLarsIC
-
 # OOB
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.ensemble import RandomForestRegressor
@@ -118,36 +113,16 @@ from sklearn.ensemble import GradientBoostingRegressor
 
 
 
-
-
-
+# =======================================================================
+# Methods
+# =======================================================================
 def train_test(X, y, test_rate = 0.2):
-	X_train, X_test, y_train, y_test = train_test_split(X,
-														y,
-														test_size = test_rate,
-														random_state = 0)
+	X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = test_rate, random_state = 0)
 	return X_train, X_test, y_train, y_test
 
 
-def iid_cv_iterators(model, X, y,
-					 n_splits = 5, n_repeats = 100, shuffle = False,
-					 test_size = 0.3, train_size = 0.7,
-					 lpo_p = 2,
-					 random_state = 0):
-	"""
+def iid_cv_iterators(model, X, y, n_splits = 5, n_repeats = 100, shuffle = False, test_size = 0.3, train_size = 0.7, lpo_p = 2, random_state = 0):
 
-	:param model:
-	:param X:
-	:param y:
-	:param n_splits:
-	:param n_repeats:
-	:param shuffle:
-	:param test_size:
-	:param train_size:
-	:param lpo_p:
-	:param random_state:
-	:return:
-	"""
 	kf = KFold(n_splits = n_splits, shuffle = shuffle, random_state = random_state)
 	for k, train, test in enumerate(kf.split(X)):
 		model.fit(X[train], y[train])
@@ -181,22 +156,6 @@ def iid_cv_iterators(model, X, y,
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 def cross_validation(model, X, y, method = "cross_validate", cv = 5, scoring = None):
 	"""
 	Cross-Validation
@@ -220,9 +179,7 @@ def cross_validation(model, X, y, method = "cross_validate", cv = 5, scoring = N
 		return scores
 
 
-def tuning_param_cv(method, model, X, y, method_cv,
-						  param_grid, param_dist, scoring,
-						  cv_inner, cv_outer, is_refit, n_iter):
+def tuning_param_cv(method, model, X, y, method_cv, param_grid, param_dist, scoring, cv_inner, cv_outer, is_refit, n_iter):
 	# inner_cv = iid_cross_validation_iterators()
 	# outer_cv = iid_cross_validation_iterators()
 	if method == "GridSearchCV":
@@ -251,10 +208,7 @@ def tuning_param_cv(method, model, X, y, method_cv,
 										 scoring = scoring)
 		gen_scores = nested_scores.mean()
 
-		return cv_result, \
-			   best_estimator, best_index, best_params, best_score, \
-			   scorer, n_splits, refit_time, \
-			   gen_scores
+		return cv_result, best_estimator, best_index, best_params, best_score, scorer, n_splits, refit_time, gen_scores
 
 	elif method == "RandomizedSearchCV":
 		rscv = RandomizedSearchCV(estimator = model,
@@ -283,10 +237,7 @@ def tuning_param_cv(method, model, X, y, method_cv,
 										 scoring = scoring)
 		gen_scores = nested_scores.mean()
 
-		return cv_result, \
-			   best_estimator, best_index, best_params, best_score, \
-			   scorer, n_splits, refit_time, \
-			   gen_scores
+		return cv_result, best_estimator, best_index, best_params, best_score, scorer, n_splits, refit_time, gen_scores
 
 
 

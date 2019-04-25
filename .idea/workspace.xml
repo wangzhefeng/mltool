@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59deae33-77b0-4b10-a2d1-6a50b224e5dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mlPipeline.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PersistenceSaveModel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataPreprocessing/naTool.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataPreprocessing/naTool.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modelSelection/modelEvaluation/classification_score.py" beforeDir="false" afterPath="$PROJECT_DIR$/modelSelection/modelEvaluation/classification_score.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/targetTransform/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/targetTransform/targetTransform.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/PCA_SVM_GridSearchCV.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/featureEngine/feature_engine.py" beforeDir="false" afterPath="$PROJECT_DIR$/featureEngine/feature_engine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/featureTransform/categorical_dummy.py" beforeDir="false" afterPath="$PROJECT_DIR$/featureTransform/categorical_dummy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mlPipeline.py" beforeDir="false" afterPath="$PROJECT_DIR$/mlPipeline.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,33 +14,11 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="mltool" />
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataPreprocessing/naTool.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2052">
-              <caret line="110" selection-start-line="110" selection-end-line="110" />
-              <folding>
-                <element signature="e#72#91#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mlPipeline.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-              <folding>
-                <element signature="e#48#66#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -62,6 +38,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/test.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/modelSelection/modelEvaluation/classification_score.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/mlPipeline.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -73,21 +50,13 @@
         <option value="$PROJECT_DIR$/modelSaveAndLoad/modelLoad.py" />
         <option value="$PROJECT_DIR$/modelSaveAndLoad/PersistenceSaveModel.py" />
         <option value="$PROJECT_DIR$/mlPipeline.py" />
+        <option value="$PROJECT_DIR$/featureTransform/categorical_dummy.py" />
+        <option value="$PROJECT_DIR$/demo/PCA_SVM_GridSearchCV.py" />
+        <option value="$PROJECT_DIR$/featureEngine/feature_engine.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/mltool.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="4">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="2676" />
     <option name="y" value="24" />
     <option name="width" value="1238" />
@@ -100,80 +69,13 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="mltool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mltool" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mltool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mltool" type="462c0819:PsiDirectoryNode" />
-              <item name="dataPreprocessing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mltool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mltool" type="462c0819:PsiDirectoryNode" />
-              <item name="dataPreprocessing" type="462c0819:PsiDirectoryNode" />
-              <item name="naTool.py" type="8704e2dd:PyFileNode" />
-            </path>
-            <path>
-              <item name="mltool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mltool" type="462c0819:PsiDirectoryNode" />
-              <item name="dataPreprocessing" type="462c0819:PsiDirectoryNode" />
-              <item name="naTool.py" type="8704e2dd:PyFileNode" />
-              <item name="NaTool" type="dd8bbb05:PyElementNode" />
-            </path>
-            <path>
-              <item name="mltool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mltool" type="462c0819:PsiDirectoryNode" />
-              <item name="featureEngine" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mltool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mltool" type="462c0819:PsiDirectoryNode" />
-              <item name="featureTransform" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mltool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mltool" type="462c0819:PsiDirectoryNode" />
-              <item name="featureTransform" type="462c0819:PsiDirectoryNode" />
-              <item name="categorical_dummy.py" type="8704e2dd:PyFileNode" />
-            </path>
-            <path>
-              <item name="mltool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mltool" type="462c0819:PsiDirectoryNode" />
-              <item name="featureTransform" type="462c0819:PsiDirectoryNode" />
-              <item name="continuous_trans.py" type="8704e2dd:PyFileNode" />
-            </path>
-            <path>
-              <item name="mltool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mltool" type="462c0819:PsiDirectoryNode" />
-              <item name="featureTransform" type="462c0819:PsiDirectoryNode" />
-              <item name="distribution_transform.py" type="8704e2dd:PyFileNode" />
-            </path>
-            <path>
-              <item name="mltool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mltool" type="462c0819:PsiDirectoryNode" />
-              <item name="featureTransform" type="462c0819:PsiDirectoryNode" />
-              <item name="feature_classification.py" type="8704e2dd:PyFileNode" />
-            </path>
-            <path>
-              <item name="mltool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mltool" type="462c0819:PsiDirectoryNode" />
-              <item name="featureTransform" type="462c0819:PsiDirectoryNode" />
-              <item name="targetTransform.py" type="8704e2dd:PyFileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="/usr/local/anaconda3/bin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -237,11 +139,14 @@
       <workItem from="1554463287071" duration="180000" />
       <workItem from="1554463554961" duration="2118000" />
       <workItem from="1554467910888" duration="2778000" />
+      <workItem from="1554903854151" duration="7872000" />
+      <workItem from="1555595424596" duration="308000" />
+      <workItem from="1555599117011" duration="6000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16558000" />
+    <option name="totallyTimeSpent" value="24744000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -253,12 +158,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2676" y="24" width="1238" height="1056" extended-state="4" />
-    <editor active="true" />
+    <frame x="1427" y="-4" width="2499" height="1084" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.39579833" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49838188" weight="0.11097511" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="2" sideWeight="0.50161815" side_tool="true" weight="0.23361345" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.9506324" weight="0.32984293" />
@@ -278,6 +182,29 @@
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.30588236" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.50161815" side_tool="true" weight="0.23361345" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.9506324" weight="0.32984293" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49979618" weight="0.3294979" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.049367607" side_tool="true" weight="0.32984293" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -294,13 +221,7 @@
       </provider>
     </entry>
     <entry file="file:///usr/local/anaconda3/lib/python3.6/site-packages/sklearn/metrics/classification.py" />
-    <entry file="file://$PROJECT_DIR$/modelSelection/GBM_params_tuning.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3496">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/modelSelection/GBM_params_tuning.py" />
     <entry file="file://$PROJECT_DIR$/modelVisual/learning_curve.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -373,7 +294,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dataPreprocessing/naTool.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2052">
+        <state relative-caret-position="837">
           <caret line="110" selection-start-line="110" selection-end-line="110" />
           <folding>
             <element signature="e#72#91#0" expanded="true" />
@@ -381,12 +302,127 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/featureTransform/categorical_dummy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#72#90#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mlPipeline.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
+        <state relative-caret-position="-588">
+          <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="115" />
+          <folding>
+            <element signature="e#47#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/featureTransform/distribution_transform.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#72#90#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/featureTransform/targetTransform.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#72#90#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/featureTransform/continuous_trans.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#72#90#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modelSelection/CV/GridSearch_CV.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/featureSelection/feature_selection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
           <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/featureSelection/dimensionality_reduction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-379">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/featureEngine/feature_engine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/PCA_SVM_GridSearchCV.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#48#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modelSelection/CV/mk_proj_dir.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#268#278#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modelSelection/CV/multi_metric_GridSearchCV.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#73#91#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modelSelection/CV/Nest_nonNested_CV.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#73#101#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modelSelection/CV/randomsearch_gridsearch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#72#90#0" expanded="true" />
           </folding>
         </state>
       </provider>
