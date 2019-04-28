@@ -41,6 +41,7 @@ p_grid = {"C": [1, 10, 100], "gamma": [.01, .1]}
 inner_cv = KFold(n_splits = 5, shuffle = True, random_state = 29)
 outer_cv = KFold(n_splits = 5, shuffle = True, random_state = 29)
 
+
 clf = GridSearchCV(estimator = svm,
 				   param_grid = p_grid,
 				   cv = inner_cv,
